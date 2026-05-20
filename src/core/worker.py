@@ -10,7 +10,7 @@ import time
 import uuid
 import traceback
 from pathlib import Path
-from typing import Optional, Callable, Any, List, Dict
+from typing import Optional, Callable, Any, List, Dict, Tuple
 from enum import Enum
 from dataclasses import dataclass, field
 from queue import Queue, Empty
