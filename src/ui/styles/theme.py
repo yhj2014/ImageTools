@@ -262,6 +262,13 @@ class Sizes:
     space_12 = 48               # 12 单位 - 区块间
     space_16 = 64               # 16 单位 - 大区块
     
+    # 间距别名 - 语义化别名
+    space_xs = space_1          # 4px - 超小间距
+    space_sm = space_2          # 8px - 小间距
+    space_md = space_4          # 16px - 中等间距
+    space_lg = space_6          # 24px - 大间距
+    space_xl = space_8          # 32px - 超大间距
+    
     # 内边距
     padding_xs = 4             # 超小内边距
     padding_sm = 8             # 小内边距
